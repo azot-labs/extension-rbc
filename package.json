@@ -1,0 +1,41 @@
+{
+  "name": "rbc",
+  "version": "0.0.1",
+  "homepage": "https://rbc.ru/",
+  "config": {
+    "title": "РБК",
+    "icon": "https://static.rustore.ru/imgproxy/A-G-s2Q1x2iqq3qHCAo66-nllrtlqEr7XNU_JKXt4mQ/preset:web_app_icon_160/aHR0cHM6Ly9zdGF0aWMucnVzdG9yZS5ydS80MGViMWY3MS1kMDkzLTQ2NDMtOTkyNi0xZWM0ZjkwNzViMTQ=.webp"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": {
+    "name": "Azot",
+    "url": "https://azot.so/"
+  },
+  "contributors": [
+    {
+      "name": "Vitaly Gashkov",
+      "email": "vitalygashkov@vk.com",
+      "url": "https://github.com/vitalygashkov"
+    }
+  ],
+  "license": "MIT",
+  "main": "dist/rbc.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "azt dev",
+    "build": "azt build",
+    "test": "node --test --watch"
+  },
+  "engines": {
+    "azot": ">=4.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "azot": "^0.9.0",
+    "typescript": "^5.9.2"
+  }
+}
