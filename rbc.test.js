@@ -1,6 +1,6 @@
-const { test } = require('node:test');
-const assert = require('node:assert');
-const rbc = require('./rbc.js');
+import { test } from 'node:test';
+import assert from 'node:assert';
+import rbc from './rbc.js';
 
 test('rbc', async () => {
   const results = await rbc.fetchContentMetadata('https://www.rbc.ru/rbcfreenews/689614559a79475189a67acb');
